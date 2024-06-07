@@ -1,3 +1,4 @@
+
 .navbar {
     list-style: none;
     display: flex;
@@ -5,6 +6,8 @@
     margin: 5px;
     position: sticky;
     top: 0;
+    width: 100%;
+    
 }
 
 .nav-item {
@@ -13,11 +16,11 @@
 
 .nav-item a {
     text-decoration: none;
-    color: rgb(143, 32, 143);
+    color: white;
     padding: 5px 0;
     position: relative;
     font-size: large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .nav-item a::after {
@@ -34,4 +37,20 @@
 
 .nav-item a:hover::after {
     width: 100%;
+}
+
+#profile-pic {
+    transition: all 1s ease-in-out;
+}
+
+#profile-pic.logo {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    z-index: 1001;
+    border: 2px solid white;
+
 }
