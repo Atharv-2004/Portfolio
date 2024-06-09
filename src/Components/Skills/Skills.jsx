@@ -6,7 +6,7 @@ import CircularProgressBar from './CircularProgressBar/CircularProgressBar';
 const skills = [
     { name: 'HTML', percentage: 100, image: '/logos/html.png' },
     { name: 'CSS', percentage: 90, image: '/logos/css.jpeg' },
-    { name: 'JavaScript', percentage: 70, image: '/logos/js.png' },
+    { name: 'JavaScript', percentage: 70, image: '/logos/Js.png' },
     { name: 'Java', percentage: 85, image: '/logos/java.png' },
     { name: 'Spring Boot', percentage: 60, image: '/logos/springboot.png' },
     { name: 'React', percentage: 75, image: '/logos/react.png' },
