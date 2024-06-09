@@ -2,6 +2,7 @@
 import './App.css';
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
+
 import React, { useEffect } from 'react';
 import About from './Components/About';
 import Skills from './Components/Skills/Skills';

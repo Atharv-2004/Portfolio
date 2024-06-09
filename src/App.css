@@ -3,7 +3,7 @@ body {
   padding: 0;
   overflow-x: hidden;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  /* background: linear-gradient(to right, #581c87, black); */
+  
   color: white;
   background-image: url('./assets/brickbg.jpg');
   background-size:cover;
@@ -14,13 +14,13 @@ body {
 }
 .App {
   text-align: center;
-    /* background: linear-gradient(to right, #581c87,black); */
+   
 }
 
 
 
 .App-header {
-  /* background: linear-gradient(to right, #581c87, black); */
+  
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -31,12 +31,12 @@ body {
   width: 100%;
   top: 0;
   z-index: 1000;
-  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+  transition: background-color 0.3s ease; 
 }
 
 .header-scrolled {
   width: 100vw;
-  background: rgba(0, 0, 0, 0.374); /* Adjust transparency and color as needed */
+  background: rgba(0, 0, 0, 0.374);
 }
 .App-link {
   color: #61dafb;

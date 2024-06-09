@@ -2,8 +2,7 @@ import React from 'react';
 import './Projects.css';
 import { FaGithub } from 'react-icons/fa';
 import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import the carousel styles
-
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 const projects = [
   { name: 'Song Player', image: '/song-player.jpeg', github: 'https://github.com/Atharv-2004/song-player' },
   { name: 'TicTacToe', image: '/ticTacToe.jpeg', github: 'https://github.com/Atharv-2004/tictactoe' },
