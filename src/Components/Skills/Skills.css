@@ -24,10 +24,10 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    background-color: rgba(255, 255, 255, 0.219);
+    background-color: rgba(255, 255, 255, 0.526);
     border-radius: 10px;
     overflow: hidden;
-    perspective: 100px; /* 3D perspective */
+    perspective: 100px; 
     transition: transform 0.6s, background-color 0.3s;
 }
 
@@ -35,7 +35,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    backface-visibility: hidden; /* Hide back during rotation */
+    backface-visibility: hidden; 
     transition: opacity 0.6s;
 }
 
@@ -58,5 +58,5 @@
 
 .skill-item:hover {
     transform: rotateY(180deg);
-    background-color: rgba(255, 255, 255, 0.8); /* Less transparent white */
+    background-color: rgba(255, 255, 255, 0.8); 
 }

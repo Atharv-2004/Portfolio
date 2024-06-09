@@ -25,9 +25,9 @@ const ContactMe = () => {
             </div>
             <div className="right-div">
                 <Rive
-                    style={{ width: 300, height: 300 }}
-                    src="contact.riv"
-                    stateMachines="State Machine 2"
+                    style={{ width: 400, height: 400 }}
+                    src="404_cat.riv"
+                    stateMachines="State Machine 1"
                 />
             </div>
         </div>

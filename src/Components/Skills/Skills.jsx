@@ -5,14 +5,14 @@ import CircularProgressBar from './CircularProgressBar/CircularProgressBar';
 
 const skills = [
     { name: 'HTML', percentage: 100, image: '/logos/html.png' },
-    { name: 'CSS', percentage: 90, image: '/logos/css.jpeg' },
+    { name: 'CSS', percentage: 90, image: '/logos/css.png' },
     { name: 'JavaScript', percentage: 70, image: '/logos/Js.png' },
     { name: 'Java', percentage: 85, image: '/logos/java.png' },
     { name: 'Spring Boot', percentage: 60, image: '/logos/springboot.png' },
     { name: 'React', percentage: 75, image: '/logos/react.png' },
     { name: 'SQL', percentage: 80, image: '/logos/sql.png' },
     { name: 'Python', percentage: 75, image: '/logos/python.png' },
-    { name: 'CLI', percentage: 85, image: '/logos/cli.jpeg' },
+    { name: 'CLI', percentage: 85, image: '/logos/cli.png' },
 ];
 
 function Skills() {
