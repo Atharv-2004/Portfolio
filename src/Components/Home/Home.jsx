@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import Typing from '../Typing';
-import AtharvPic from '../../Pictures/AtharvPic2.jpg';
+import AtharvPic from '../../assets/AtharvPic2.jpg';
 
 function Home() {
     const texts = ["<a_Learner/>", "<a_Tinkerer/>", "<a_Programmer/>"];

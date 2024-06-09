@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import videoSrc from '../../Pictures/Gen-2 8s, 1751689586, M 5.mp4';
+import videoSrc from '../../assets/Gen-2 8s, 1751689586, M 5.mp4';
 
 const slideInLeft = {
   hidden: { opacity: 0, x: -100 },

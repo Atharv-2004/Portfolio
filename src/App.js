@@ -5,6 +5,8 @@ import Home from './Components/Home';
 import React, { useEffect } from 'react';
 import About from './Components/About';
 import Skills from './Components/Skills/Skills';
+import Projects from './Components/Projects';
+import ContactMe from './Components/Contact/Contact';
 function App() {
 
   useEffect(() => {
@@ -31,7 +33,10 @@ function App() {
       <Home />
       <About />
       <Skills />
-       
+      <Projects />
+      
+      <ContactMe />
+      
 
     </div>
   );
