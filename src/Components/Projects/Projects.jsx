@@ -13,7 +13,7 @@ const projects = [
 
 function Projects() {
   return (
-    <div className="Projects-Container">
+    <div id="projects" className="Projects-Container">
       <h2 className="Projects-Heading">Projects</h2>
       <Carousel
         showThumbs={false}

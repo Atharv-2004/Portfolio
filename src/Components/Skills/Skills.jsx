@@ -12,12 +12,12 @@ const skills = [
     { name: 'React', percentage: 75, image: '/logos/react.png' },
     { name: 'SQL', percentage: 80, image: '/logos/sql.png' },
     { name: 'Python', percentage: 75, image: '/logos/python.png' },
-    { name: 'CLI', percentage: 85, image: '/logos/cli.png' },
+    { name: 'CLI', percentage: 65, image: '/logos/cli.png' },
 ];
 
 function Skills() {
     return (
-        <div className="Skills-Container">
+        <div id="skills" className="Skills-Container">
             <div className="Rive-container">
                 <Rive
                     style={{ width: 600, height: 600 }}

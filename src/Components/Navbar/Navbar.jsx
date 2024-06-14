@@ -1,19 +1,18 @@
 import './Navbar.css';
-function Navbar(){
-    return(
-        <nav>
+import { Link } from 'react-scroll';
 
-            
-            <ul className="navbar">
-                <li class="nav-item"><a href="C:\Users\ATHARV SANJAY JAIN\my-portfolio\src\Components\Home\index.js">Home</a></li>
-                <li class="nav-item"><a href="C:\Users\ATHARV SANJAY JAIN\my-portfolio\src\Components\About\index.js">About</a></li>
-                <li class="nav-item"><a href="*">Skills</a></li>
-                <li class="nav-item"><a href="*">Projects</a></li>
-                <li class="nav-item"><a href="*">Contact me!</a></li>
-            </ul>
-        </nav>
-    )
-
+function Navbar() {
+  return (
+    <nav>
+      <ul className="navbar">
+        <li className="nav-item"><Link to="home" smooth={true} duration={1500}>Home</Link></li>
+        <li className="nav-item"><Link to="about" smooth={true} duration={1500}>About</Link></li>
+        <li className="nav-item"><Link to="skills" smooth={true} duration={1500}>Skills</Link></li>
+        <li className="nav-item"><Link to="projects" smooth={true} duration={1500}>Projects</Link></li>
+        <li className="nav-item"><Link to="contact" smooth={true} duration={1500}>Contact me!</Link></li>
+      </ul>
+    </nav>
+  );
 }
 
 export default Navbar;

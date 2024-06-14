@@ -4,7 +4,7 @@ import Rive from '@rive-app/react-canvas';
 
 const ContactMe = () => {
     return (
-        <div className="contact-container">
+        <div id="contact" className="contact-container">
             <div className="left-div">
                 <div className="contact-info">
                     <h1>Contact Me</h1>
