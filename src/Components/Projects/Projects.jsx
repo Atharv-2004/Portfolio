@@ -9,6 +9,7 @@ const projects = [
   { name: 'Portfolio', image: '/portfolio.jpeg', github: 'https://github.com/Atharv-2004/Portfolio' },
   { name: 'Quiz', image: '/quiz.jpeg', github: 'https://github.com/Atharv-2004/QuizSubmission' },
   { name: 'ParkingLot', image: '/parkingLot.jpeg', github: 'https://github.com/Atharv-2004/ParkingLotSST' },
+  { name: 'Room-mate', image: '/chatBot.png', github: 'https://github.com/Atharv-2004/room-mate' }
 ];
 
 function Projects() {
